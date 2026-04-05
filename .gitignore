@@ -1,0 +1,8 @@
+build-*/
+meta-*
+tmp*
+sstate-cache*
+downloads*
+*.log
+*.log.*
+share

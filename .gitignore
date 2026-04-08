@@ -1,5 +1,4 @@
 build-*/
-meta-*
 tmp*
 sstate-cache*
 downloads*

@@ -104,8 +104,8 @@ bitbake core-image-minimal -K
 
 ### some errors are solved with this
 
-- ```bash
+- to solve the network error or permission error when running the build command
+
+```bash
   sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
   ```
-
--

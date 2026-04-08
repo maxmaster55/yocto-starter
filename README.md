@@ -6,14 +6,14 @@
 - clone the poky repo
 
 ```bash
-git clone git@github.com:yoctoproject/poky.git --branch=scarthgap
+git submodule add --branch=scarthgap git@github.com:yoctoproject/poky.git 
 ```
 
 - clone the raspberrypi layer from open embedded store
 ![rpi meta page](image.png)
 
 ```bash
-git clone git://git.yoctoproject.org/meta-raspberrypi --branch=scarthgap
+git submodule add --branch=scarthgap git://git.yoctoproject.org/meta-raspberrypi.git
 ```
 
 - select the scarthgap branch on the store

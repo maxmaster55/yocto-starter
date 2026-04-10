@@ -6,14 +6,14 @@
 - clone the poky repo
 
 ```bash
-git submodule add --branch=scarthgap git@github.com:yoctoproject/poky.git 
+git submodule add --branch scarthgap git@github.com:yoctoproject/poky.git 
 ```
 
 - clone the raspberrypi layer from open embedded store
 ![rpi meta page](image.png)
 
 ```bash
-git submodule add --branch=scarthgap git://git.yoctoproject.org/meta-raspberrypi.git
+git submodule add --branch scarthgap git://git.yoctoproject.org/meta-raspberrypi.git
 ```
 
 - select the scarthgap branch on the store
@@ -108,4 +108,4 @@ bitbake core-image-minimal -K
 
 ```bash
   sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
-  ```
+```

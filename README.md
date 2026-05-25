@@ -99,7 +99,7 @@ this is the tool that download and compile the source code.
 - u can take the download dir and the sstate-cache dir from the build directory and share it with others
 
 ```bash
-bitbake core-image-minimal -K 
+bitbake core-image-minimal -k
 ```
 
 ### some errors are solved with this

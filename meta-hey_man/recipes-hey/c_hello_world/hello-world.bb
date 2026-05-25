@@ -13,11 +13,22 @@ python do_display_banner() {
 addtask display_banner before do_build
 
 
-SRC_URI = "git://github.com/maxmaster55/c_hello_world.git;protocol=https;branch=main"
+SRC_URI = "git://github.com/maxmaster55/c_hello_world.git;protocol=https;branch=main \
+           file://0001-fixed-file.patch"
 
 SRCREV = "8bb4f38a68211dedc674a98932b6b3f9c2f9ddd9"
 
 
+S = "${WORKDIR}/git"
+
+
+
 do_compile(){
-    ${CC} ${CFLAGS} ${LDFLAGS} -o ${B}/hello_world ${WORKDIR}/git/hello_world.c
+    ${CC} ${CFLAGS} ${LDFLAGS} hello_world.c -o hello_world
+}
+
+
+do_install(){
+    install -d ${D}${bindir}
+    install -m 0755 hello_world ${D}${bindir}
 }

@@ -1,0 +1,27 @@
+From 7f4047e0f7ff59ac926fc8cc87d9a061abae0163 Mon Sep 17 00:00:00 2001
+From: maxmaster <yousseflkashef000@gmail.com>
+Date: Mon, 1 Jun 2026 13:43:18 +0300
+Subject: [PATCH] added patch message
+
+---
+ dash.c | 1 +
+ 1 file changed, 1 insertion(+)
+ mode change 100755 => 100644 dash.c
+
+diff --git a/dash.c b/dash.c
+old mode 100755
+new mode 100644
+index 9e1765d..ff14f96
+--- a/dash.c
++++ b/dash.c
+@@ -657,6 +657,7 @@ void loop()
+ int main(int argc, char **argv)
+ {
+ 
++	printf("Patched dash <3\n");
+ 	loop();
+ 	return EXIT_SUCCESS;
+ }
+-- 
+2.43.0
+

@@ -10,7 +10,7 @@ git submodule add --branch scarthgap git@github.com:yoctoproject/poky.git
 ```
 
 - clone the raspberrypi layer from open embedded store
-![rpi meta page](image.png)
+![rpi meta page](images/rpi.png)
 
 ```bash
 git submodule add --branch scarthgap git://git.yoctoproject.org/meta-raspberrypi.git

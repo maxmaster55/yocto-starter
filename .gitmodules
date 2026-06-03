@@ -6,3 +6,11 @@
 	path = meta-raspberrypi
 	url = git@github.com:agherzan/meta-raspberrypi.git
 	branch = scarthgap
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git@github.com:openembedded/meta-openembedded.git
+	branch = scarthgap
+[submodule "meta-qt6"]
+	path = meta-qt6
+	url = https://code.qt.io/yocto/meta-qt6.git
+	branch = lts-6.8

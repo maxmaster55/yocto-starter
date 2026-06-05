@@ -15,7 +15,6 @@ IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL}"
 
 # some tools
 IMAGE_INSTALL:append = " \
-        packagegroup-core-boot \
         vim \
         python3 \
         net-tools \

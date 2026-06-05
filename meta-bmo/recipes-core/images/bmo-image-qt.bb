@@ -7,7 +7,7 @@ DESCRIPTION = "This is a simple qt test image with gui."
 LICENSE = "MIT"
 
 # add image features
-IMAGE_FEATURES += "debug-tweaks weston opengl" 
+IMAGE_FEATURES += "debug-tweaks weston" 
 
 
 IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL}"
@@ -15,7 +15,6 @@ IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL}"
 
 # some tools
 IMAGE_INSTALL:append = " \
-        packagegroup-core-boot \
         vim \
         python3 \
         net-tools \

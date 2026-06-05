@@ -14,3 +14,7 @@
 	path = meta-qt6
 	url = https://code.qt.io/yocto/meta-qt6.git
 	branch = lts-6.8
+[submodule "meta-tensorflow"]
+	path = meta-tensorflow
+	url = https://git.yoctoproject.org/meta-tensorflow
+	branch = scarthgap

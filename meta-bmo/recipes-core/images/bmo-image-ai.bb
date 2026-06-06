@@ -26,7 +26,7 @@ IMAGE_INSTALL:append = " \
 # AI tools
 IMAGE_INSTALL:append = " \
     tensorflow-lite \
-    python3-keras \
+    keras \
     python3-pillow \
     python3-numpy \
     python3-pandas \

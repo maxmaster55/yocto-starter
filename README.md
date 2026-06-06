@@ -20,3 +20,9 @@ cd Yocto_BMO_Image
 source poky/oe-init-build-env
 bitbake bmo-image-ai
 ```
+
+![error](images/p_error.png)
+
+use this command to fix the error:
+
+```bash
